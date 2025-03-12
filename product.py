@@ -6,7 +6,7 @@ class Product:
         
         
     def output_info(self):
-        return f"Product name: {self.name}, Price: ${self.price}, Quantity: {self.quantity}"
+        return f"Product name: {self.name}, Price: ${self.price:.2f}, Quantity: {self.quantity}"
 
     def get_quantity(self):
         return self.quantity
